@@ -12,16 +12,16 @@ Por simplificação deve-se assumir que:
 - cada álbum possui um único artista (pode ser uma banda, por exemplo, Skank)
 - Num álbum tipo coletânea, o nome do artista será “Vários artistas”.
 O seu sistema deve prover um menu com três opções: Artista, Álbum e Playlist.
-SubMenu Artista
+-SubMenu Artista
 Deve conter uma opção para Cadastrar artista, apenas informando o nome. Deve
 também conter uma opção para Consultar artista por nome. Neste caso, deve-se
 mostrar todos os álbuns do artista, com todas as faixas de cada álbum.
-SubMenu Álbum
+-SubMenu Álbum
 Deve conter uma opção para Cadastrar álbum, informando título, artista, ano e
 permitir a inclusão de todas as faixas (músicas) do álbum. Deve também conter uma
 opção para Consultar álbuns por título, mostrando todas as faixas do álbum
 consultado.
-SubMenu Playlist
+-SubMenu Playlist
 Deve conter uma opção para Cadastrar playlist, informando nome e permitindo a
 inclusão de músicas. O processo de inclusão de músicas na playlist deve ser feito
 através de um combo box e um list box. O combo box deve permitir a seleção do
